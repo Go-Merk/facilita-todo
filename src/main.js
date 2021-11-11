@@ -12,7 +12,7 @@ Vue.use(VueRouter)
 
 const routes = [
 	{path: '/', component: Login},
-	{path: '/dashboard', component: Dashboard}
+	{path: '/Dashboard', component: Dashboard}
 ];
 
 var router = new VueRouter({

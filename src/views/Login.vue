@@ -7,7 +7,7 @@
 			form-login(title='Entre com os dados de acesso.')
 				input-text(label='Nome de usuário ou e-mail:' name='')
 				input-text(label='Senha:' name='')
-				router-link(class='button button--wide' to="/dashboard") Entrar
+				router-link(class='button button--wide' to="/Dashboard") Entrar
 				base-link(url='#' label='Esqueci minha senha' class='base-link--forgot-password')
 </template>
 
